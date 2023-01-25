@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(./sea.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: inline-block;
+    width: 100%;
+    background: gray;
+    text-align: center;
+    background: rgba(0,0,0,0.5)
+}
+.navbar img{
+    width: 60px;
+    position: relative;
+    float: left;
+    padding: 10;
+}
+.navbar a{
+    position: relative;
+    float: right;
+font-size: 18px;
+text-decoration: none;
+color: white;
+padding: 15px;
+}
+.navbar a:hover{
+background: white;
+color: black;
+border-radius: 15px;
+}
+.section-one header{
+    position: relative;
+
+    top: 10vh;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.section-two h2{
+position: relative;
+top: 15vh;
+text-align: center;
+font-size: 25px;
+color: white;
+}
+button{
+position: relative;
+top: 25vh;
+left: 45vw;
+background: transparent;
+border: none;
+font-size: 18px;
+color:black;
+}
+
+button:hover{
+background-color: lightblue;
+color: white;
+padding: 10px;
+border-radius: 15px;
+}
+.content{
+background: url(huduu1.jpg);
+position: relative;
+width: 100vw;
+height: 100vh;
+background-size: cover;
+background-position:center;
+
+}
+.content a{
+position: relative;
+float:right;
+text-decoration: none;
+padding-right: 20px;
+font-size: 18px;
+color: white;
+padding-top: 10px;
+
+}
+.content a:hover{
+background-color: white;
+color: black;
+border-radius: 10px;
+
+
+}
+.content h1{
+float: left;
+padding-left: 10px;
+}
+.content img{
+float: left;
+padding-top: 10px;
+width: 40px;
+padding-left: 10px;
+}
+.content ul{
+float:left;
+
+}
